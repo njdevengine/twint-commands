@@ -10,8 +10,11 @@ twint -s "hotdog" --near "new york city" -o hotdogtweets.csv --csv
 twint -u realdonaldtrump --followers
 ##gets trumps followers
 
-twint -s realdonaldtrump --verified
-##searches for tweets from verified users using the phrase realdonaldtrump, you can also use "quotes like this"
+twint -s realdonaldtrump --near "new york city" -o nytrump.csv --csv
+##searches for tweets users using the phrase realdonaldtrump near nyc, you can also use "quotes like this"
+
+twint -s realdonaldtrump --verified -o verifiedtrump.csv --csv
+##searches for tweets users using the phrase realdonaldtrump from verified users
 
 ##SAMPLE COMMANDS FROM GITHUB PAGE##
 
