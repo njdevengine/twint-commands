@@ -18,6 +18,10 @@ twint -s realdonaldtrump --verified -o verifiedtrump.csv --csv
 
 ## Excel formula for above ="twint -s "&A1&" --verified -o twitter"&A1&".csv --csv"
 
+twint - u realdonaldtrump --user-full -o twitterbios.csv --csv
+## profile information extraction
+## Excel formula for bio generation ="twint -u "&A1&" --user-full -o twitterbios.csv --csv"
+
 ##SAMPLE COMMANDS FROM GITHUB PAGE##
 
 twint -u username - Scrape all the Tweets from user's timeline.
