@@ -16,6 +16,8 @@ twint -s realdonaldtrump --near "new york city" -o nytrump.csv --csv
 twint -s realdonaldtrump --verified -o verifiedtrump.csv --csv
 ##searches for tweets users using the phrase realdonaldtrump from verified users
 
+## Excel formula for above ="twint -s "&A1&" --verified -o twitter"&A1&".csv --csv"
+
 ##SAMPLE COMMANDS FROM GITHUB PAGE##
 
 twint -u username - Scrape all the Tweets from user's timeline.
