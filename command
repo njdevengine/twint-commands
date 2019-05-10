@@ -40,7 +40,7 @@ twint -u username --database tweets.db - Save Tweets to a SQLite database.
 twint -u username --followers - Scrape a Twitter user's followers.
 twint -u username --following - Scrape who a Twitter user follows.
 twint -u username --favorites - Collect all the Tweets a user has favorited.
-twint -u username --following --user-full - Collect full user information a person follows
+twint -u username --following --user-full - Collect full user information from users that a person follows
 twint -u username --profile-full - Use a slow, but effective method to gather Tweets from a user's profile (Gathers ~3200 Tweets, Including Retweets).
 twint -u username --retweets - Use a quick method to gather the last 900 Tweets (that includes retweets) from a user's profile.
 twint -u username --resume 10940389583058 - Resume a search starting from the specified Tweet ID.
