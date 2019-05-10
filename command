@@ -11,10 +11,10 @@ twint -u realdonaldtrump --followers
 ##gets trumps followers
 
 twint -s realdonaldtrump --near "new york city" -o nytrump.csv --csv
-##searches for tweets users using the phrase realdonaldtrump near nyc, you can also use "quotes like this"
+##searches for tweets from users using the phrase realdonaldtrump near nyc, you can also use "quotes like this"
 
 twint -s realdonaldtrump --verified -o verifiedtrump.csv --csv
-##searches for tweets users using the phrase realdonaldtrump from verified users
+##searches for tweets from users using the phrase realdonaldtrump (verified users only)
 
 ## Excel formula for above ="twint -s "&A1&" --verified -o twitter"&A1&".csv --csv"
 
