@@ -1,3 +1,6 @@
+twint --userlist my_list.txt --user-full -o twitterbios.csv --csv
+one account per line, gets full bios output to csv
+
 twint -u realdonaldtrump --followers -o trumpfollowers.csv --csv
 ##outputs trumps followers as a csv
 
