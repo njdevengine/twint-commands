@@ -1,5 +1,7 @@
 import datetime
 from dateutil.relativedelta import relativedelta
+import time
+import os
 
 def get_month_day_range(date):
     last_day = date + relativedelta(day=1, months=+1, days=-1)
@@ -23,8 +25,6 @@ for i in ranges:
     filenames.append(filename+'_'+i[0]+'.csv')
     queries.append(search)
 
-import time
-import os
 for i in queries:
     print(i)
     start_time = time.time()
@@ -32,3 +32,4 @@ for i in queries:
         os.system(i)
         print("--- %s seconds ---" % (time.time() - start_time))
     except Exception as e: print(e)
+    time.sleep(150)
